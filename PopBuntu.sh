@@ -6,7 +6,7 @@
 # https://www.cesariogarcia.com
 
 echo "Installing POP_OS Theme"
-sudo add-apt-repository ppa:system76/pop
+sudo add-apt-repository -y ppa:system76/pop
 sudo apt update
 sudo apt -y upgrade
 sudo apt -y install pop-theme gnome-tweak-tool chrome-gnome-shell xdotool
